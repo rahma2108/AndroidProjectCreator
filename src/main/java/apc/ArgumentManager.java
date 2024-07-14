@@ -175,7 +175,7 @@ public class ArgumentManager {
     public void showVersion() {
         String versionNumber = "1.5.2-stable";
         StringBuilder version = new StringBuilder();
-        version.append("[+]AndroidProjectCreator " + versionNumber + " [developed by Max 'Libra' Kersten <info@maxkersten.nl> or @Libranalysis on Twitter]\n");
+        version.append("[+]AndroidProjectCreator " + versionNumber + " [RELEASE]\n");
         System.out.println(version.toString());
     }
 }
